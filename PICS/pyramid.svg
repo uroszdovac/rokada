@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="477px" height="515px" viewBox="0 0 477 515" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>E17435A8-8048-4D52-A9F8-B39200E1D6D4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="71.3676498%" y1="-29.3107281%" x2="41.230506%" y2="57.1993764%" id="linearGradient-1">
+            <stop stop-color="#B9B8F1" offset="0%"></stop>
+            <stop stop-color="#4257BC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="71.3676498%" y1="-29.3107281%" x2="40.470066%" y2="59.3822555%" id="linearGradient-2">
+            <stop stop-color="#B9B8F1" offset="0%"></stop>
+            <stop stop-color="#566CD3" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="283.870968%" gradientTransform="translate(0.500000,0.500000),scale(0.176136,1.000000),rotate(180.000000),scale(1.000000,0.082201),translate(-0.500000,-0.500000)" id="radialGradient-3">
+            <stop stop-color="#C5B6D0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-143.000000, -2996.000000)" fill-rule="nonzero">
+            <g id="pyramid" transform="translate(147.000000, 2996.000000)">
+                <polygon id="Path-4" fill="url(#linearGradient-1)" points="15 104.562738 305 268 457 52"></polygon>
+                <polygon id="Path-5" fill="url(#linearGradient-2)" points="283.320917 439 305 268 14 104"></polygon>
+                <polygon id="Path-6" fill="url(#linearGradient-2)" points="283 439 457 52 305 268"></polygon>
+                <circle id="Oval-2" stroke="#FFFFFF" stroke-width="8" fill="#3E28D2" cx="14.5" cy="104.5" r="14.5"></circle>
+                <circle id="Oval-2-Copy" stroke="#FFFFFF" stroke-width="8" fill="#3E28D2" cx="279.5" cy="438.5" r="14.5"></circle>
+                <circle id="Oval-2-Copy-2" stroke="#FFFFFF" stroke-width="8" fill="#3E28D2" cx="454.5" cy="51.5" r="14.5"></circle>
+                <circle id="Oval-3" fill-opacity="0.2" fill="#2300FF" opacity="0.200000003" cx="241" cy="189" r="189"></circle>
+                <ellipse id="Oval-4" fill="url(#radialGradient-3)" opacity="0.25" cx="235" cy="484" rx="176" ry="31"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
