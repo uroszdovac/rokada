@@ -15,8 +15,8 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/main.css">
-    <link rel="stylesheet" href="../CSS/motion-css-master/motion.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/motion-css-master/motion.min.css">
 </head>
 <body>
     <header>
@@ -68,7 +68,7 @@
             </label>
             <br>
         	<label for="email">
-                <input type="text" name="email" id="email" placeholder="Email">
+                <input type="text" name="email" id="email" placeholder="Email" require>
             </label>
             <br>
             
@@ -92,10 +92,10 @@
 		$headers="From: ".$email;
 
 		if(mail($to, $subject, $message, $headers)){
-			echo "<h1 class=''>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
+			echo "<h4 id="successH4">Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h4>";
 		}
 		else{
-			echo "Something went wrong!";
+			echo "<h4 id="wrongH4">Something went wrong!</h4>";
 		}
 	}
 ?>

@@ -909,6 +909,20 @@ footer{
     margin-bottom: 6%;
 }
 
+/* .pickOurDiv:last-of-type{
+    display: block;
+} */
+
+.pickOurDiv:last-of-type {
+    justify-content: flex-start;
+}
+
+.pickOurDiv:last-of-type > div:first-of-type{
+    margin-right: 5%;
+}
+
+
+
 .pickOurDiv > div{
     display: flex;
     justify-content: space-between;
@@ -1026,7 +1040,7 @@ footer{
 }
 
 #contactForm{
-    margin: 0 auto 12% auto;
+    margin: 0 auto 4% auto;
     width: 40%;
     box-shadow: 1px 1px 44px rgba(38, 63, 90, 0.09);
     padding: 3.2% 4% 6% 4%;
@@ -1099,6 +1113,22 @@ label p{
     font-weight: bold;
     letter-spacing: 1px;
     float: right;
+}
+
+#successH4{
+    background-color: #2300FF;
+    font-family: 'Ubuntu' ,sans-serif;
+    margin: 0 auto 3%;
+    width: 40%;   
+    border-radius: 5px;
+}
+
+#wrongH4{
+    background-color: #DF3C7B;
+    font-family: 'Ubuntu' ,sans-serif;
+    margin: 0 auto 3%;
+    width: 40%;   
+    border-radius: 5px;
 }
 
 
@@ -1657,5 +1687,12 @@ label p{
         font-size: 14px;
         margin: 0 auto;
     }
+
+    #leaderDivShow, #talentDivShow, #developDivShow {
+        width: 90%;
+        margin: 0 auto 5% auto;
+    }
+
+    
 }
     
